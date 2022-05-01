@@ -1,3 +1,7 @@
 # rsa
 
-Bob-alice RSA message
+Alice uses the RSA algorithm to send a message to Bob.
+
+
+
+
