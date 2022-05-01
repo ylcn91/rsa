@@ -39,7 +39,7 @@ public class Client {
             q = keyCreator.getQ();
             System.out.println("//Client keys generated//");
 
-            clientSocket = new Socket("localhost", 8080);
+            clientSocket = new Socket("localhost", 9191);
 
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));

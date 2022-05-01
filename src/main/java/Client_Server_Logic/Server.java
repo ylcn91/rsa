@@ -10,7 +10,7 @@ import java.util.LinkedList;
 
 public class Server {
 
-    public static final int PORT = 8080;
+    public static final int PORT = 9191;
     public static LinkedList<ServerThread> serverList = new LinkedList<>();
     private static BigInteger[] openKey;
     private static BigInteger[] secretKey;
